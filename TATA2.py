@@ -139,19 +139,19 @@ def executar_analises(args):
 def imprimir_resultados(resultados):
     """Imprime todos os resultados coletados de forma organizada."""
     print("\n" + "="*80)
-    print(f"📄 RELATÓRIO DE ANÁLISE DO ARQUIVO: {resultados['arquivo']}")
-    print(f"🧬 TOTAL DE SEQUÊNCIAS: {resultados['total_sequencias']}")
+    print(f"RELATÓRIO DE ANÁLISE DO ARQUIVO: {resultados['arquivo']}")
+    print(f"TOTAL DE SEQUÊNCIAS: {resultados['total_sequencias']}")
     print("="*80)
 
     if 'composicao' in resultados:
-        print("\n--- 🔬 Análise de Composição (GC Content) ---")
+        print("\n--- Análise de Composição (GC Content) ---")
         print(f"Conteúdo GC Geral do Arquivo: {resultados['composicao']['geral']}")
         for seq_id, gc in resultados['composicao']['por_sequencia'].items():
             print(f"  -> {seq_id}: {gc}")
     
     if 'busca_tf' in resultados:
         busca = resultados['busca_tf']
-        print(f"\n--- 🔎 Resultados da Busca pelo Sítio '{busca['fator']}' ---")
+        print(f"\n--- Resultados da Busca pelo Sítio '{busca['fator']}' ---")
         if 'erro' in busca:
             print(f"  Erro: {busca['erro']}")
         elif not busca['encontrados']:
@@ -162,7 +162,7 @@ def imprimir_resultados(resultados):
                 print(f"  -> Em '{seq_id}': encontrado na(s) posição(ões) {pos_str}")
 
     if 'orfs' in resultados:
-        print(f"\n--- 🧬 Análise de ORFs (Tamanho Mínimo: {args.orfs} aa) ---")
+        print(f"\n--- Análise de ORFs (Tamanho Mínimo: {args.orfs} aa) ---")
         if not resultados['orfs']:
             print("  Nenhum ORF correspondente aos critérios foi encontrado.")
         else:
@@ -174,7 +174,7 @@ def imprimir_resultados(resultados):
                     print(f"      Peso Mol.: {orf['peso_molecular_Da']} Da | pI: {orf['ponto_isoeletrico']} | GRAVY: {orf['gravy']}")
     
     if 'restricao' in resultados:
-        print(f"\n--- ✂️ Análise de Sítios de Restrição ---")
+        print(f"\n--- ✂Análise de Sítios de Restrição ---")
         if 'erro' in resultados['restricao']:
             print(f"  Erro: {resultados['restricao']['erro']}")
         elif not resultados['restricao']:
