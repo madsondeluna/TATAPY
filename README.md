@@ -2,7 +2,7 @@
 
 Uma ferramenta de linha de comando, escrita em Python, para realizar diversas análises genéticas e de bioinformática em arquivos no formato FASTA. Este script é ideal para estudantes, pesquisadores e qualquer pessoa que precise de uma análise rápida e automatizada de sequências de DNA.
 
-[OS RESULTADOS PRODUZIDOS PELO TATA.py PODEM NÃO APRESENTAR REPRODUTIBILIDADE CIENTÍFICA, FUNCIONANDO APENAS COMO UMA FERRAMENTA DE TESTES]
+[OS RESULTADOS PRODUZIDOS PELO *TATA.py* PODEM NÃO APRESENTAR REPRODUTIBILIDADE CIENTÍFICA, FUNCIONANDO APENAS COMO UMA FERRAMENTA DE TESTES]
 
 ## Principais Funcionalidades
 
