@@ -1,8 +1,10 @@
 # TATA.py - Analisador de Sequências FASTA
 
-Uma ferramenta de linha de comando, escrita em Python, para realizar diversas análises genéticas e de bioinformática em arquivos no formato FASTA. Este script é ideal para estudantes, pesquisadores e qualquer pessoa que precise de uma análise rápida e automatizada de sequências de DNA.
+**TATA.py** é uma ferramenta de linha de comando desenvolvida em Python, projetada para facilitar a análise básica de sequências genéticas em arquivos no formato FASTA. O script permite a execução automatizada de tarefas comuns em bioinformática, como contagem de nucleotídeos, cálculo de conteúdo GC, identificação de regiões codificantes, entre outras funcionalidades.
 
-[OS RESULTADOS PRODUZIDOS PELO *TATA.py* PODEM NÃO APRESENTAR REPRODUTIBILIDADE CIENTÍFICA, FUNCIONANDO APENAS COMO UMA FERRAMENTA DE TESTES]
+Voltado para fins educacionais e de demonstração, **TATA.py** é especialmente útil para estudantes e pesquisadores que desejam explorar conceitos iniciais de análise de dados genômicos em um ambiente de programação.
+
+> Atenção: os resultados gerados por TATA.py não devem ser utilizados como evidência científica definitiva. A ferramenta foi desenvolvida com fins didáticos e pode não garantir total reprodutibilidade ou rigor metodológico.
 
 ## Principais Funcionalidades
 
